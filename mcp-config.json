@@ -1,13 +1,13 @@
 {
   "mcpServers": {
     "word-document-server": {
-      "command": "uvx",
+      "command": "/Users/andrewsirulnik/Projects/Office-Word-MCP-Server/.venv/bin/python",
       "args": [
-        "--from",
-        "office-word-mcp-server",
-        "word_mcp_server"
+        "/Users/andrewsirulnik/Projects/Office-Word-MCP-Server/word_mcp_server.py"
       ],
-      "env": {}
+      "env": {
+        "PYTHONPATH": "/Users/andrewsirulnik/Projects/Office-Word-MCP-Server"
+      }
     }
   }
 }
